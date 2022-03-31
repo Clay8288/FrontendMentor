@@ -14,11 +14,11 @@ Feel free to give your opinion on best practices.
 
 ### The challenges
 
-- NFT preview card component (http://tired-legs.surge.sh/)
-- Clipboard landing page (http://fm-landing-page.surge.sh/)
-- Article preview component (http://article-preview-clay.surge.sh/)
-- Base Apparel coming soon page (http://coming-soon-clay.surge.sh/)
-- Tip calculator app (https://calculator-tip-clay.surge.sh/)
+- NFT preview card component 
+- Clipboard landing page 
+- Article preview component 
+- Base Apparel coming soon page 
+- Tip calculator app 
 
 ## Author
 
