@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+<h1>Splitter</h1>
+<section class="calculator">
+  <div class="calc">
+    <div class="bill">
+    <h2>Bill</h2>
+    <div class="money">
+      <img src="./images/icon-dollar.svg" alt="Sign dollar">
+      <input type="number" id="input-bill">
+    </div>
+    </div>
+    <div class="tips">
+      <h2>Select Tip %</h2>
+      <button id="reduc" type="button">5%</button>
+      <button id="reduc" type="button">10%</button>
+      <button id="reduc" type="button">15%</button>
+      <button id="reduc" type="button">25%</button>
+      <button id="reduc" type="button">50%</button>
+      <input type="number" id="custom" placeholder="Custom"></input>
+    </div>
+    <div class="peoples">
+      <h2>Number of People</h2>
+      <p id="error"></p>
+      <div class="user">
+      <img src="./images/icon-person.svg" alt="User logo">
+      <input type="number" id ="input-people">
+      </div>
+    </div>
+  </div>
+  <div class="results">
+    <div class="tip-result">
+      <h2>Tip Amount</h2>
+      <p class="person">/ person</p>
+      <p class="amount-tip">$0.00</p>
+    </div>
+    <div class="total-result">
+      <h2>Total</h2>
+      <p class="person">/ person</p>
+      <p class="amount-total">$0.00</p>
+    </div>
+    <button class="reset">Reset</button>
+  </div>
+</section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Clelia</a>.
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
