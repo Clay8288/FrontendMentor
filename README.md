@@ -1,8 +1,8 @@
 # FrontendMentor
 
-Hello and welcome to my Frontend Mentor page.
-You will find all my challenges and the link to each site.
-Feel free to give your opinion on best practices.
+Hello and welcome to my Frontend Mentor page.<br/>;
+You will find all my challenges and the link to each site.<br/>;
+Feel free to give your opinion on best practices.<br/>;
 
 ## Table of contents
 
