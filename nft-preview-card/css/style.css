@@ -1,0 +1,202 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 490px;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.article {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-img {
+    width: 90%;
+    height: 60%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.article-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.view{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 20px;
+}
+
+.view img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin: 35% auto;
+    visibility: hidden;
+}
+
+.view:hover{
+    background-color: rgba(0, 255, 247, 0.322);
+}
+
+.view:hover img{
+    visibility: visible;
+}
+
+
+.article-infos {
+    margin: 0 30px;
+    height: 25%;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1 a, span a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+h1 a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.article-infos p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.article-etherum {
+    width: 30%;
+    height: 5%;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.article-etherum img {
+    height: 90%;
+    width: auto;
+}
+
+.article-etherum p {
+    margin: 0;
+    font-size: 1.2em;
+    width: 80%;
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    margin: auto;
+}
+
+.article-clock {
+    width: 30%;
+    height: 5%;
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.article-clock p {
+    margin: 0;
+    width: 70%;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: hsl(215, 51%, 70%);
+    margin: auto;
+}
+
+.person-info {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: hsl(215, 51%, 70%);
+    border-top: 0.1em solid hsl(215, 32%, 27%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span a:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.person-info img {
+    height: 50%;
+    border: 0.1em solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.person-info p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+@media only screen and (min-device-width : 320px)
+{
+    /* Styles pour cette Media Queries */
+    .card{
+        width: 350px;
+        height: 650px;
+    }
+
+    .article-infos{
+        height: 20%;
+    }
+
+    .article-img{
+        height: 55%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .article-infos p{
+        font-size: 1.1em;
+    }
+
+    .article-clock{
+        width: 36%;
+    }
+
+    }
