@@ -14,7 +14,7 @@ Feel free to give your opinion on best practices.<br/>
 
 ### The challenges
 
-- NFT preview card component 
+- [NFT preview card component](https://github.com/Clay8288/FrontendMentor/tree/article-preview) 
 - Clipboard landing page 
 - Article preview component 
 - Base Apparel coming soon page 
