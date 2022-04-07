@@ -14,11 +14,11 @@ Feel free to give your opinion on best practices.<br/>
 
 ### The challenges
 
-- [NFT preview card component](https://github.com/Clay8288/FrontendMentor/tree/article-preview) 
-- Clipboard landing page 
-- Article preview component 
-- Base Apparel coming soon page 
-- Tip calculator app 
+- [NFT preview card component](https://github.com/Clay8288/FrontendMentor/tree/nft-preview-card) 
+- [Clipboard landing page](https://github.com/Clay8288/Clipboard-landing-page-master)
+- [Article preview component](https://github.com/Clay8288/FrontendMentor/tree/article-preview)
+- [Base Apparel coming soon page](https://github.com/Clay8288/FrontendMentor/tree/coming-soon)
+- [Tip calculator app](https://github.com/Clay8288/FrontendMentor/tree/tips-calculator)
 
 ## Author
 
